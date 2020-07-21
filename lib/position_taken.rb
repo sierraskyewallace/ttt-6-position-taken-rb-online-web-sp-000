@@ -4,5 +4,6 @@ def position_taken?(board, index)
   else 
     nil
   end
-  
+end
+
   
