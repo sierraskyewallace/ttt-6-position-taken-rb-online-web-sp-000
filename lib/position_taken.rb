@@ -1,9 +1,10 @@
 def position_taken?(board, index)
-  if array[index_number] == "X" || "O"
-    puts "tue"
-  else 
-    nil
+  if board[index] == "X" || board[index] == "O"
+    return "true"
+  else
+    return"nil"
   end
 end
+
 
   
